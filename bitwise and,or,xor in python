@@ -1,0 +1,13 @@
+N1=int(input("enter the frist integer="))
+N2=int(input("ener the secnd integer="))
+print("biwise operactions")
+result_and=N1&N2
+result_or=N1|N2
+result_xor=N1^N2
+result_left_shift=N1<<N2
+result_right_shift=N1>>N2
+print("bitwise AND=",bin(result_and))
+print("bitwise OR=",bin(result_or))
+print("bitwise XOR=",bin(result_xor))
+print("bitwise left_shift=",bin(result_left_shift))
+print("biwise_right_shift",bin(result_right_shift))
