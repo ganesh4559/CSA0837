@@ -1,0 +1,3 @@
+f=float(input("enter the temperture in f="))
+c=(5/9)*(f-32)
+print(f"{f} f is equal to {c:2f}c")
