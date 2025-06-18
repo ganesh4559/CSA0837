@@ -1,0 +1,6 @@
+num=346
+num1=float(input("enter the frist number="))
+num2=float(input("enter the second number="))
+num3=float(input("enter the third number ="))
+maximum_number =max(num1,num2,num3)
+print("the maximum numbe is :",maximum_number)
