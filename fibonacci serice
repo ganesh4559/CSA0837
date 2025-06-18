@@ -1,0 +1,22 @@
+
+
+
+
+N = int(input("Enter the value of N to find the Nth Fibonacci number: "))
+
+if N <= 0:
+
+  print("Invalid input. Please enter a positive integer.")
+
+else:
+
+     fib1, fib2 = 0, 1
+
+for i in range(2, N):
+
+    fib_sum = fib1 + fib2
+
+    fib1,fib2 = fib2, fib_sum
+
+print(f"The {N}th Fibonacci number is:", fib2 if N > 1 else fib1)
+
