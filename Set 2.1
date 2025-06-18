@@ -1,0 +1,132 @@
+Z = sorted(c)
+
+# Print the merged and sorted list
+
+print("Merged list:", c)
+
+print("Sorted list:", Z)
+
+=====================================================================
+
+6. Write a Python program to count the number of even and odd numbers in a series of
+
+numbers.
+
+Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+Expected Output :
+
+Number of even numbers : 5
+
+Number of odd numbers : 4
+
+def count_even_odd(numbers):
+
+even_count = sum(num % 2 == 0 for num in numbers)
+
+odd_count = len(numbers) - even_count
+
+return even_count, odd_count
+
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+even_numbers, odd_numbers = count_even_odd(numbers)
+
+print("Number of even numbers:", even_numbers)
+
+print("Number of odd numbers:", odd_numbers)
+
+=====================================================================
+
+7. Write a Python program that checks if a specific substring is present in a given string.
+
+The program should print "Substring found" if the substring is present, otherwise print
+
+"Substring not found"
+
+Sample Input: python is Integrated Language
+
+Substring : Language
+
+Output: Substring found
+
+string = "python is Integrated Language"
+
+substring = "language"
+
+string = string.lower()
+
+substring = substring.lower()
+
+if substring in string:
+
+print("Substring found")
+
+else:
+
+print("Substring not found")
+8. Write a program to find the Factorial of a number using recursion.
+
+def factorial(n):
+
+if n == 0 :
+
+return 1
+
+else:
+
+return n * factorial(n-1)
+
+num = int(input("Enter a number: "))
+
+print("factorial=",factorial(num))
+
+=====================================================================
+
+9. Write a program to check if a number is a prime number or not using recursion.
+
+def is_prime_recursive(number, divisor=2):
+
+if number < 2:
+
+return False
+
+if divisor * divisor > number:
+
+return True
+
+if number % divisor == 0:
+
+return False
+
+return is_prime_recursive(number, divisor + 1)
+
+num = int(input("Enter a number: "))
+
+if is_prime_recursive(num):
+
+print(f"{num} is a prime number.")
+
+else:
+
+print(f"{num} is not a prime number.")
+
+(OR)
+
+def prime(n,i):
+
+if i==1:
+
+return 1
+
+if n%i==0:
+
+return 0
+
+return prime(n,i-1)
+
+n=int(input("enter a num "))
+
+x=prime(n,n-1)
+
+if x==1:
