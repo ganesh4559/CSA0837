@@ -1,0 +1,5 @@
+name="ganesh"
+reversed_name=""
+for ch in name:
+  reversed_name=ch+reversed_name
+print("reversed string is :",reversed_name)
