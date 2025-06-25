@@ -1,0 +1,3 @@
+def remove_duplicates(a):
+  return list(dict.fromkeys(a))
+print(remove_duplicates([2,3,5,3,6,4,3]))
