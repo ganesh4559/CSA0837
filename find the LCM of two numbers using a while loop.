@@ -1,0 +1,8 @@
+a= int(input("emter the first number=\n"))
+b=int(input("enter the second number=\n"))
+lcm=max(a,b)
+while True:
+  if lcm%a==0 and lcm%b==0:
+    print("lcm is =",lcm)
+    break
+  lcm+=1
