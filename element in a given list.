@@ -1,0 +1,6 @@
+list=[66,5,9,90,1]
+n=90
+for i in range(len(list)):
+  if list[i]==n:
+    print(i)
+    
