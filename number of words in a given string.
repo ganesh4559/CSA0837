@@ -1,0 +1,3 @@
+text="ganesh and ramesh"
+word_count=len(text.split())
+print(" number of words:",word_count)
