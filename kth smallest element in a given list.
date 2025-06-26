@@ -1,0 +1,5 @@
+numbers=[2,53,5,67,5,3]
+sorted_numbers=sorted(numbers)
+k=2
+kth_smallest=sorted_numbers[k-1]
+print(f" the {k}rd smallest element is : ",kth_smallest)
