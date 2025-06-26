@@ -1,0 +1,7 @@
+string ="ganesh"
+substring="a"
+index=string.find(substring)
+if index != -1:
+   print(f" substing found at index {index}")
+else:
+   print("substring not found .")
