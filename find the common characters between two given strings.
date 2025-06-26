@@ -1,0 +1,5 @@
+a="ganesh"
+b="manoj"
+common_char=set(a)&set(b)
+common_char_str="".join(sorted(common_char))
+print("common characerds:",common_char_str)
