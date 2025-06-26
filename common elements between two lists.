@@ -1,0 +1,4 @@
+a=[1,2,4,5,3]
+b=[2,4,5,3,7,4]
+common_elements=list(set(a)&set(b))
+print("common elements:",common_elements)
