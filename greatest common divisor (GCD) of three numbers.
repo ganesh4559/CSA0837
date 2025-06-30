@@ -1,0 +1,7 @@
+import math 
+num1=4
+num2=8
+num3=12
+gcd12=math.gcd(num1,num2)
+gcd23=math.gcd(gcd12,num3)
+print(f" the gcd of {num1},{num2} and {num3} is {gcd23}")
