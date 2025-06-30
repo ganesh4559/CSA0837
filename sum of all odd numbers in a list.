@@ -1,0 +1,7 @@
+
+list=[3,45,6,54,44,82]
+sum=0
+for i in list:
+  if i%2!=0:
+     sum+=i
+print("nnumber of odd numbers=",sum)
