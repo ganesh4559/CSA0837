@@ -1,0 +1,5 @@
+email="simats@SAVEETHA.COM"
+if "@" in email and "." in   email :
+  print ("entered email address is valid")
+else:
+ print(" entered email addres is not vaild")
