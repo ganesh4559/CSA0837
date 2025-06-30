@@ -1,0 +1,5 @@
+num=9
+if int(num**0.5)**2==num:
+  print(" ti's a perfect square!")
+else:
+  print("not a perfect suare.")
