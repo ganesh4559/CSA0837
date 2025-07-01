@@ -1,0 +1,9 @@
+
+import math 
+a=float(input("enter the coefficint a: "))
+b=float(input("enter the coefficint b: "))
+c=float(input("enter the coefficint c: "))
+d=b**2-4*a*c
+root1=(-b+math.sqrt(d))/(2*a)
+root2=(-b-math.sqrt(d))/(2*a)
+print("roots are:",root1,"and",root2)
