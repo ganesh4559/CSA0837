@@ -1,0 +1,5 @@
+s=input(" enter the string:\n")
+if s. isdigit():
+  print(" the string comtains only digits.")
+else:
+  print(" the strig does not contain only digits")
