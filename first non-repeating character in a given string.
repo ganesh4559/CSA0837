@@ -1,0 +1,12 @@
+def frist_non_repeating_char(s):
+  s=s.lower()
+  for ch in s:
+    if s.count(ch)==1:
+      return ch
+  return None
+string="swiss"
+result=frist_non_repeating_char(string)
+if result:
+  print("first non_repeating character:",result)
+else:
+  print(" no non_repeating character found.")
