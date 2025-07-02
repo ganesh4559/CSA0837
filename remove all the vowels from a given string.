@@ -1,0 +1,7 @@
+s=input("enter a string :\n")
+result=""
+for char in s:
+  if char.lower() not in "aeiou":
+    if char.upper() not in "AEIOU":
+      result+=char
+print("string without vowels:",result)
