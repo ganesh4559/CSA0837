@@ -1,0 +1,5 @@
+n1=[1,2,3,4,5]
+n2=[6,7,8,9,0]
+merged_list=n1+n2
+merged_list.sort()
+print("merged list :\n",merged_list)
