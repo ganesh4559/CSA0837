@@ -1,0 +1,3 @@
+text=input(" enter the text:\n")
+reversed_text=text[::-1]
+print("revesed string:",reversed_text)
