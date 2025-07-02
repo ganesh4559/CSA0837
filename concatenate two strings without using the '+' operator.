@@ -1,0 +1,4 @@
+s1=input("enter the string:\n")
+s2=input("enter the secod string:\n")
+result="{}{}".format(s1,s2)
+print("concateneted string:",result)
