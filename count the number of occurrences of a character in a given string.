@@ -1,0 +1,4 @@
+text=input('enter the string:\n')
+char=input(" enter a character to count:\n")
+count=text.count(char)
+print(f" the character '{char}' appears {count} times")
