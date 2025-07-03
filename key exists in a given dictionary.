@@ -1,0 +1,6 @@
+my_dict={'a':10,'b':20,'c':30}
+key_to_check='b'
+if key_to_check in my_dict:
+  print("key exists in the dictionary.")
+else:
+  print(" key does not exit in the dictionry")
