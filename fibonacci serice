@@ -1,7 +1,4 @@
 
-
-
-
 N = int(input("Enter the value of N to find the Nth Fibonacci number: "))
 
 if N <= 0:
